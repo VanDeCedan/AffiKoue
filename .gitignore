@@ -1,0 +1,17 @@
+# Ignore all files with a specific extension
+*.log   # Ignores all .log files
+*.csv   # Ignores all .csv files
+*.xlsx  # Ignores all .xlsx files
+*.ipynb # Ignores all .ipynb files
+
+# Ignore specific files
+secrets.json
+config/settings.yaml
+
+# Ignore entire folders
+__pycache__/  # Ignores Python cache files
+node_modules/  # Ignores dependencies in a Node.js project
+myenv/  # Ignores all files inside the "myenv" folder
+
+# Ignore all files except one
+!important.txt  # Keeps "important.txt" while ignoring others in the same directory
