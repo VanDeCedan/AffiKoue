@@ -1,21 +1,13 @@
-credentials:
-  usernames:
-    admin:
-      email: admin@example.com
-      name: Admin User
-      password: <hashed_password>  # Use the hashed password (explained below)
-      group: admin
-    supervisor:
-      email: supervisor@example.com
-      name: Supervisor User
-      password: <hashed_password>
-      group: supervisor
-    user:
-      email: user@example.com
-      name: Regular User
-      password: <hashed_password>
-      group: user
-cookie:
-  expiry_days: 365
-  key: some_signature_key
-  name: some_cookie_name
+users:
+  admin:
+    created: true
+    department: DHASE
+    name: AHODEKON MAXIES
+    password: $2b$12$XPUgNhch8nyNkr5jTGR9ruvZ6KtP6M73c43UhM4fbrzCdtZ3lOjku
+    roles:
+    - users
+    - budget
+    - "requete"
+    - "reconciliation"
+    - dashboard
+    username: nmaxies
