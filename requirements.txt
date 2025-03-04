@@ -1,0 +1,8 @@
+pandas
+numpy
+sqlite3
+streamlit
+plotly
+streamlit
+streamlit_option_menu
+bcrypt
