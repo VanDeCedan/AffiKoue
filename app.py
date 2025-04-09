@@ -216,7 +216,6 @@ def main():
                 df=df[["Nom et prénoms", "Username", "Departement", "Email"]]
                 st.dataframe(df, hide_index=True)
 
-
             elif budget_option=="Ajouter budget":
                 with st.form("Budget"):
                     file=st.file_uploader("Veuillez charger le budget",type=["XLSX"])

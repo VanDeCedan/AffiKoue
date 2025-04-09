@@ -1,3 +1,5 @@
+flask
+flak_cors
 pandas
 numpy
 streamlit
@@ -6,3 +8,5 @@ streamlit
 streamlit_option_menu
 bcrypt
 openpyxl
+psycopg2
+flask_sqlalchemy

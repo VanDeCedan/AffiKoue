@@ -1,0 +1,21 @@
+/budget_management_app
+│── backend/                # Flask Backend (API)
+│   ├── db.py               # DB class and DB connection 
+│   ├── auth.py             # Authentication functions
+│   ├── dp.py               # data processing functions
+│   ├── requete.py          # Requete CRUD functions
+│   ├── budget.py           # Budget CRUD functions
+│   ├── analyse.py          # Analyse functions
+│   ├── app.py              # Main Flask app
+│   ├── requirements.txt    # Backend dependencies
+│── frontend/               # Streamlit Frontend
+│   ├── app.py              # Streamlit main app
+│   ├── auth_front.py       # Calls Flask API for authentication
+│   ├── requete.py          # Calls Flask API for requete operations
+│   ├── analyse.py          # Calls Flask API for analysis operations
+│   ├── budget.py           # Calls Flask API for budget operations
+│   ├── form.py             # Streamlit Form functions
+│   ├── layout.py           # Streamlit layout functions
+│   ├── requirements.txt    # Frontend dependencies
+│── Dockerfile              # Dockerfile for deployment
+│── docker-compose.yml      # Compose file to run both Flask & Streamlit
